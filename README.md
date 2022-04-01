@@ -29,7 +29,7 @@ and supports a few additional keypresses:
 - `C-c n n`: narrow to region of current request (including headers)
 - `TAB`: hide/show current request body, only if 
 - `C-c C-a`: show all collapsed regions
-- `C-c C-i`: show information on resclient variables at point
+- `C-c C-i`: show information on restclient variables at point
 
 The last two functions are implemented as `restclient-outline-mode` minor mode, which is activated by default via hook for major mode. Remove this hook using `(remove-hook 'restclient-mode-hook 'restclient-outline-mode)` if you don't wish to have this behaviour, or it clashes with any other binding for `TAB` like autocomplete. 
 
