@@ -181,7 +181,7 @@ Restclient now allows to specify file path to use as a body, like this:
 
 # Customization
 
-There are several variables available to customize `restclient` to your liking. Also, all font lock faces are now customizable in `resclient-faces` group too.
+There are several variables available to customize `restclient` to your liking. Also, all font lock faces are now customizable in `restclient-faces` group too.
 
 ### restclient-log-request
 
